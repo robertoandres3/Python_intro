@@ -1,0 +1,9 @@
+# 9. Conversor de minutos a días y horas
+
+minutos = int(input("Escribe una cantidad de minutos: "))
+dias = minutos // 1440
+minutos_restantes = minutos % 1440
+horas = minutos_restantes // 60
+minutos_finales = minutos_restantes % 60
+
+print(f"{dias} días, {horas} horas y {minutos_finales} minutos")
